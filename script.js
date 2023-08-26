@@ -4,9 +4,6 @@ const submit = document.querySelector('button');
 const form = document.querySelector('.form');
 const errorMsj = document.querySelector('.error-message');
 
-
-//Has que si el usuario da enter o presiona el boton si el email que puso no es valido se muestre la clase error en el form
-//Si el email es valido que se muestre la clase success
 submit.addEventListener('click', (e)=> {
     if (regExp.test(input.value)) {
         alert('Valid email');
